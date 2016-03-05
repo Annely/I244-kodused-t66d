@@ -1,0 +1,24 @@
+body {
+    background-color: #98FB98;
+}
+
+#sinine {
+    color: navy;
+    margin-left: 20px;
+    font-size: 250%
+}
+#sinine:hover{
+	color: yellow;
+}
+
+
+#suurDIV {
+	background-color: #E9967A;
+}
+div {
+	background-color: white;
+	text-align: justify;
+}
+div.img {
+	border: 1px solid black;
+}
