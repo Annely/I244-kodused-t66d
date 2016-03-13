@@ -1,0 +1,88 @@
+#suur {
+	width: 600px;
+	height: 600px;
+	position: fixed;
+	left: 20px;
+	top: 20px;
+}
+
+.klass {
+	border-radius: 50%;
+	position: absolute;
+	
+}
+.klass:nth-child(1) {
+	height: 100%;
+	width: 100%;
+	background-color: red;
+	border: solid black;
+	left:(100%-width%)/2;
+	top:(100%-width%)/2;
+}
+.klass:nth-child(2) {
+	height: 90%;
+	width: 90%;
+	background-color: white;
+	border: solid black;
+	left:(100%-width%)/2;
+	top:(100%-width%)/2;
+}
+.klass:nth-child(3) {
+	height: 80%;
+	width: 80%;
+	background-color: red;
+	border: solid black;
+	left:(100%-width%)/2;
+	top:(100%-width%)/2;
+}
+.klass:nth-child(4) {
+	height: 70%;
+	width: 70%;
+	background-color: white;
+	border: solid black;
+	left:(100%-width%)/2;
+	top:(100%-width%)/2;
+}
+.klass:nth-child(5) {
+	height: 60%;
+	width: 60%;
+	background-color: red;
+	border: solid black;
+	left:(100%-width%)/2;
+	top:(100%-width%)/2;
+}
+.klass:nth-child(6) {
+	height:50%;
+	width: 50%;
+	background-color: white;
+	border: solid black;
+	left:(100%-width%)/2;
+	top:(100%-width%)/2;
+}
+.klass:nth-child(7) {
+	height: 40%;
+	width: 40%;
+	background-color: red;
+	border: solid black;
+	left:(100%-width%)/2;
+	top:(100%-width%)/2;
+}
+
+.bead {
+	width: 50px;
+	height: 50px;
+	background-color: #F0EAD6;
+	border-radius: 50%;
+	box-shadow: 0px -11px 23px -3px black inset;
+	float:left;
+	margin-top: 25px;
+}
+
+	
+.row {
+	clear: both;
+	border: gray;
+	margin-top: 50px;
+
+#raam {
+	border: 25px black;
